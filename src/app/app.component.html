@@ -1,0 +1,25 @@
+<mat-sidenav-container style="background-color: turquoise;">
+    <mat-sidenav mode="side" [(opened)]="opened">
+        <mat-icon style="font-size: 100px; padding-left: 50px;">account_circle</mat-icon>
+
+      <mat-nav-list>
+          <a mat-list-item > <mat-icon style="padding-right: 25px;"> shopping_cart</mat-icon> Carrinho </a>
+        
+          
+        <a mat-list-item> <mat-icon style="padding-right: 25px;"> loyalty</mat-icon>Seus Pedidos</a>
+        <a mat-list-item> <mat-icon style="padding-right: 25px;"> credit_card</mat-icon>Metodos de pagamento</a>
+        <a mat-list-item> <mat-icon style="padding-right: 25px;"> person</mat-icon>Informações Pessoais</a>
+        <a mat-list-item routerLink="cadastrocli"> <mat-icon style="padding-right: 25px;"> account_box</mat-icon>Cadastro</a>
+
+      </mat-nav-list>
+     
+    </mat-sidenav>
+    <mat-sidenav-content>
+      
+      <button mat-icon-button (click)="opened=!opened">
+        <mat-icon style="font-size: 40px;" > menu </mat-icon >
+      </button>
+      <router-outlet></router-outlet>
+    </mat-sidenav-content>
+    
+  </mat-sidenav-container>
