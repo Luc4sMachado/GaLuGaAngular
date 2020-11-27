@@ -5,7 +5,7 @@ example-form {
   }
   
   .example-full-width {
-    width: 50%;
+    width: 49.5%;
   }
   mat-form-field{
       font-size: 30px;
@@ -17,10 +17,17 @@ example-form {
   mat-label{
     padding-left: 10px;
   }
-  button{
-    font-size: 20px;
-    background-color: greenyellow;
+  .bcad{
+      width: 300px;
+      height: 80px;
+      font-size: 20px;
+      background-color: khaki;
   }
-  .wrapper {
-    text-align: center;
-}
+  .bexcluir{
+    width: 300px;
+    height: 60px;
+    font-size: 20px;
+    background-color: khaki;
+    left: 20px;
+   
+  }

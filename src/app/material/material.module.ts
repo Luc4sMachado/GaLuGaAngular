@@ -6,7 +6,8 @@ import {MatListModule} from '@angular/material/list';
 import {MatInputModule} from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatDialogModule} from '@angular/material/dialog';
-
+import {MatTabsModule} from '@angular/material/tabs';
+import {HttpClientModule} from '@angular/common/http';
 const MaterialComponents =[
  
   MatSidenavModule,
@@ -15,7 +16,9 @@ const MaterialComponents =[
   MatListModule,
   MatInputModule,
   MatFormFieldModule,
-  MatDialogModule
+  MatDialogModule,
+  MatTabsModule,
+  HttpClientModule
 ];
 
 @NgModule({

@@ -13,3 +13,16 @@ mat-sidenav{
     width: 400px;
     
 }
+.iconegaluga{
+    width: 100px;
+}
+.svgIcon{
+    background-color: transparent;
+}
+.botao{
+    background-color: transparent;
+    padding-top: 1px;
+    width: 130px;
+    height: 100px;
+    
+}
