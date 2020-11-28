@@ -22,7 +22,10 @@ mat-sidenav{
 .botao{
     background-color: transparent;
     padding-top: 1px;
-    width: 130px;
-    height: 100px;
-    
+    width: 170px;
+    height: 120px;
+    border: none;
+}
+.botao:focus{
+    outline: none;
 }

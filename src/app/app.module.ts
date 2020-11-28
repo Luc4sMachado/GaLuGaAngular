@@ -9,6 +9,7 @@ import { from } from 'rxjs';
 import { CadastrocliComponent } from './cadastrocli/cadastrocli.component';
 import { InfopessoaisComponent } from './infopessoais/infopessoais.component';
 import { MetpagComponent } from './metpag/metpag.component';
+import { OfertasComponent } from './ofertas/ofertas.component';
 
 
 @NgModule({
@@ -17,6 +18,7 @@ import { MetpagComponent } from './metpag/metpag.component';
     CadastrocliComponent,
     InfopessoaisComponent,
     MetpagComponent,
+    OfertasComponent,
     
   ],
   imports: [
